@@ -5,10 +5,15 @@ echo "==================================="
 echo "Ethereum Wallet Generator by Vaghr"
 echo "==================================="
 
-# 检查 Python 是否安装
+# 检查并安装 Python3 和 pip3
 if ! command -v python3 &> /dev/null; then
-    echo "Installing Python..."
-    apt-get update && apt-get install -y python3 python3-pip
+    echo "Installing Python3..."
+    apt-get update && apt-get install -y python3
+fi
+
+if ! command -v pip3 &> /dev/null; then
+    echo "Installing pip3..."
+    apt-get update && apt-get install -y python3-pip
 fi
 
 # 安装必要的 Python 包
