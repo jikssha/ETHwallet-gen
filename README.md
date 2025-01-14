@@ -1,4 +1,4 @@
-# Ethereum Wallet Generator
+# Ethereum Wallet Generator/钱包生成器
 
 A simple Ethereum wallet generator by Vaghr.
 一个简单的以太坊钱包生成器 by Vaghr
